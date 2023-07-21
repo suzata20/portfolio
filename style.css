@@ -1,0 +1,47 @@
+* {
+    margin:0;
+padding:0;
+}
+.nav ul{
+    background-color: rgb(98, 184, 172);
+    text-align:center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid rgb(33, 57, 80);
+}
+.nav a{
+    color:rgb(255, 255,255);
+}
+.nav a:hover{
+background-color: rgb(226, 226,226);
+}
+@media screen and (min-width:600px){
+    .nav li{
+        width: 120px;
+    }
+}
+.container .jumbotron{
+    margin: 10 px;
+    text-align: center;
+    color: white;
+    text-decoration: double;
+    background-color: rgb(180, 154, 120);
+
+}
+img{
+    border-color: aqua;
+    border-bottom: 50px;
+    object-fit: contain;
+}
+.buttons{
+    list-style: none;
+    display:flex ;
+    justify-content: space-around;
+}
